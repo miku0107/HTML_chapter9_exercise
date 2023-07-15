@@ -11,22 +11,24 @@
 
 main{
     width: 960px;
-    margin: 0 auto;
     padding: 50px 0;
     display: flex;
     
 }
 
-h2{
+.step-num{
     background-color: #FF9A4B;
     color: #FFF;
+    position:absolute;
+    top:0;
+    left: 0;
 }
 
 .image-box{
    height: 150px;
    margin-bottom: 10px;
    background-size: cover;
-   background-position: center;
+   background-position: bottom;
 }
 
 .box-item{
@@ -34,7 +36,7 @@ h2{
     padding: 10px;
     background-color: #EEEEEE;
     margin-right: 30px;
-    text-align: left;
+    position: relative;
 }
 
 .image-box1{
